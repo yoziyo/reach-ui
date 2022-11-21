@@ -1,11 +1,11 @@
 {
-	"name": "@reach/reach-ui",
+	"name": "@yoziyo/reach-ui",
 	"description": "The accessible foundation of your React apps and design systems",
 	"author": "React Training <hello@reacttraining.com>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/reach/reach-ui.git"
+		"url": "git+https://github.com/yoziyo/reach-ui"
 	},
 	"scripts": {
 		"preinstall": "npx -y only-allow pnpm",
@@ -82,10 +82,10 @@
 		"module-alias": "^2.2.2",
 		"prettier": "^2.7.1",
 		"pretty-format": "^28.1.1",
-		"react": "^17.0.2",
+		"react": "^18.2.0",
 		"react-16": "npm:react@^16.14.0",
 		"react-18": "npm:react@^18.0.0",
-		"react-dom": "^17.0.2",
+		"react-dom": "^18.2.0",
 		"react-dom-16": "npm:react-dom@^16.14.0",
 		"react-dom-18": "npm:react-dom@^18.0.0",
 		"react-is": "^17.0.2",
