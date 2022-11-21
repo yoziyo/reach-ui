@@ -1,13 +1,13 @@
 import * as React from "react";
-import { VisuallyHidden } from "@reach/visually-hidden";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
 import {
 	Listbox,
 	ListboxGroup,
 	ListboxGroupLabel,
 	ListboxOption,
-} from "@reach/listbox";
+} from "@yoziyo/listbox";
 import { Taco } from "./common";
-import "@reach/listbox/styles.css";
+import "@yoziyo/listbox/styles.css";
 
 let name = "Grouped with Composed Label";
 

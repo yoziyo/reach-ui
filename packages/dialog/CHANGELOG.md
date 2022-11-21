@@ -1,4 +1,4 @@
-# `@reach/dialog`
+# `@yoziyo/dialog`
 
 ## 0.18.0
 
@@ -18,6 +18,6 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@reach/portal@0.18.0`
-  - `@reach/utils@0.18.0`
-  - `@reach/polymorphic@0.18.0`
+  - `@yoziyo/portal@0.18.0`
+  - `@yoziyo/utils@0.18.0`
+  - `@yoziyo/polymorphic@0.18.0`

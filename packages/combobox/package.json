@@ -16,17 +16,17 @@
 		"build": "tsup"
 	},
 	"dependencies": {
-		"@reach/auto-id": "workspace:*",
-		"@reach/descendants": "workspace:*",
-		"@reach/polymorphic": "workspace:*",
-		"@reach/popover": "workspace:*",
-		"@reach/portal": "workspace:*",
-		"@reach/utils": "workspace:*"
+		"@yoziyo/auto-id": "workspace:*",
+		"@yoziyo/descendants": "workspace:*",
+		"@yoziyo/polymorphic": "workspace:*",
+		"@yoziyo/popover": "workspace:*",
+		"@yoziyo/portal": "workspace:*",
+		"@yoziyo/utils": "workspace:*"
 	},
 	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
+		"@yoziyo-internal/dev": "workspace:*",
+		"@yoziyo-internal/test": "workspace:*",
+		"@yoziyo-internal/tsconfig": "workspace:*",
 		"latinize": "0.3.0",
 		"match-sorter": "^6.3.1",
 		"react": "^18.2.0",

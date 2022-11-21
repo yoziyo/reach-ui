@@ -1,4 +1,4 @@
-# `@reach/checkbox`
+# `@yoziyo/checkbox`
 
 ## 0.18.0
 
@@ -20,7 +20,7 @@
 
 - `useMixedCheckbox` mistakenly derived its `checked` value incorrectly. In practice this was unlikely to cause an issue, but it now derives the guaranteed value from the active component state.
 - Updated dependencies:
-  - `@reach/auto-id@0.18.0`
-  - `@reach/machine@0.18.0`
-  - `@reach/utils@0.18.0`
-  - `@reach/polymorphic@0.18.0`
+  - `@yoziyo/auto-id@0.18.0`
+  - `@yoziyo/machine@0.18.0`
+  - `@yoziyo/utils@0.18.0`
+  - `@yoziyo/polymorphic@0.18.0`

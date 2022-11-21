@@ -6,12 +6,12 @@ import {
 	ListboxList,
 	ListboxPopover,
 	useListboxContext,
-} from "@reach/listbox";
-import type { ListboxButtonProps } from "@reach/listbox";
-import { VisuallyHidden } from "@reach/visually-hidden";
+} from "@yoziyo/listbox";
+import type { ListboxButtonProps } from "@yoziyo/listbox";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
 import { action } from "@storybook/addon-actions";
 import { Taco } from "./common";
-import "@reach/listbox/styles.css";
+import "@yoziyo/listbox/styles.css";
 
 let name = "With useListboxContext (TS)";
 

@@ -1,5 +1,5 @@
 {
-	"extends": "@reach-internal/tsconfig/dom.json",
+	"extends": "@yoziyo-internal/tsconfig/dom.json",
 	"include": ["**/*"],
 	"exclude": ["dist", "build", "node_modules"],
 	"compilerOptions": {

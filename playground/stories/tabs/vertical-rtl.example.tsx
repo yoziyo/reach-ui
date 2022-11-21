@@ -6,8 +6,8 @@ import {
 	TabPanels,
 	TabPanel,
 	TabsOrientation,
-} from "@reach/tabs";
-import "@reach/tabs/styles.css";
+} from "@yoziyo/tabs";
+import "@yoziyo/tabs/styles.css";
 
 let name = "Vertically oriented tabs, RTL";
 

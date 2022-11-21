@@ -1,4 +1,4 @@
-# `@reach/window-size`
+# `@yoziyo/window-size`
 
 ## 0.18.0
 
@@ -18,4 +18,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@reach/utils@0.18.0`
+  - `@yoziyo/utils@0.18.0`

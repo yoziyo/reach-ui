@@ -1,5 +1,5 @@
 /**
- * Welcome to @reach/checkbox!
+ * Welcome to @yoziyo/checkbox!
  *
  * Accessible components to build custom, tri-state checkboxes in React.
  *

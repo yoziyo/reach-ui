@@ -5,10 +5,10 @@ import {
 	AccordionButton,
 	AccordionPanel,
 	useAccordionItemContext,
-} from "@reach/accordion";
+} from "@yoziyo/accordion";
 import { animated, useSpring } from "@react-spring/web";
 import { action } from "@storybook/addon-actions";
-import "@reach/accordion/styles.css";
+import "@yoziyo/accordion/styles.css";
 
 let name = "Animated";
 

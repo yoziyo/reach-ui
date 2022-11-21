@@ -6,9 +6,9 @@ import {
 	ListboxOption,
 	ListboxList,
 	ListboxPopover,
-} from "@reach/listbox";
+} from "@yoziyo/listbox";
 import styled from "styled-components";
-import "@reach/listbox/styles.css";
+import "@yoziyo/listbox/styles.css";
 
 let name = "With Styled Components";
 

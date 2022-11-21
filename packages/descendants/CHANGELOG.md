@@ -1,4 +1,4 @@
-# `@reach/descendants`
+# `@yoziyo/descendants`
 
 ## 0.18.0
 
@@ -17,4 +17,4 @@
 
 - Fixed a tiny lil index ordering bug ([#827](https://github.com/reach/reach-ui/pull/827))
 - Updated dependencies:
-  - `@reach/utils@0.18.0`
+  - `@yoziyo/utils@0.18.0`

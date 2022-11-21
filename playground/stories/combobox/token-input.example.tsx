@@ -5,11 +5,11 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@reach/combobox";
-import type { ComboboxProps, ComboboxInputProps } from "@reach/combobox";
-import { composeEventHandlers } from "@reach/utils";
+} from "@yoziyo/combobox";
+import type { ComboboxProps, ComboboxInputProps } from "@yoziyo/combobox";
+import { composeEventHandlers } from "@yoziyo/utils";
 import { useCityMatch } from "./utils";
-import "@reach/combobox/styles.css";
+import "@yoziyo/combobox/styles.css";
 
 let name = "Token Input";
 

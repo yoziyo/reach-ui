@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import * as React from "react";
-import { positionTooltip, useTooltip } from "@reach/tooltip";
-import type { TooltipProps } from "@reach/tooltip";
-import { useRect } from "@reach/rect";
-import { Portal } from "@reach/portal";
-import "@reach/tooltip/styles.css";
+import { positionTooltip, useTooltip } from "@yoziyo/tooltip";
+import type { TooltipProps } from "@yoziyo/tooltip";
+import { useRect } from "@yoziyo/rect";
+import { Portal } from "@yoziyo/portal";
+import "@yoziyo/tooltip/styles.css";
 
 let name = "Custom Tooltip";
 

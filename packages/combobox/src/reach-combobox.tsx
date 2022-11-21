@@ -1,5 +1,5 @@
 /**
- * Welcome to @reach/combobox!
+ * Welcome to @yoziyo/combobox!
  *
  * Accessible combobox (autocomplete or autosuggest) component for React.
  *
@@ -29,20 +29,20 @@ import {
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	useStatefulRefValue,
 	useUpdateEffect,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+} from "@yoziyo/utils";
+import type * as Polymorphic from "@yoziyo/polymorphic";
 import {
 	createDescendantContext,
 	DescendantProvider,
 	useDescendant,
 	useDescendants,
 	useDescendantsInit,
-} from "@reach/descendants";
+} from "@yoziyo/descendants";
 import { HighlightWords } from "./utils";
-import { useId } from "@reach/auto-id";
-import { Popover, positionMatchWidth } from "@reach/popover";
-import type { PopoverProps } from "@reach/popover";
-import type { Descendant } from "@reach/descendants";
+import { useId } from "@yoziyo/auto-id";
+import { Popover, positionMatchWidth } from "@yoziyo/popover";
+import type { PopoverProps } from "@yoziyo/popover";
+import type { Descendant } from "@yoziyo/descendants";
 
 declare const __DEV__: boolean;
 

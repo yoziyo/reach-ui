@@ -5,28 +5,28 @@ import {
 	AccordionButton,
 	AccordionItem,
 	AccordionPanel,
-} from "@reach/accordion";
-import { Alert } from "@reach/alert";
+} from "@yoziyo/accordion";
+import { Alert } from "@yoziyo/alert";
 import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
 	AlertDialogOverlay,
 	AlertDialogContent,
-} from "@reach/alert-dialog";
+} from "@yoziyo/alert-dialog";
 import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@reach/disclosure";
-import { useId } from "@reach/auto-id";
+} from "@yoziyo/disclosure";
+import { useId } from "@yoziyo/auto-id";
 import {
 	CustomCheckbox,
 	CustomCheckboxContainer,
 	CustomCheckboxInput,
 	MixedCheckbox,
 	useMixedCheckbox,
-} from "@reach/checkbox";
+} from "@yoziyo/checkbox";
 import {
 	Combobox,
 	ComboboxInput,
@@ -35,7 +35,7 @@ import {
 	ComboboxOption,
 	ComboboxOptionText,
 	useComboboxContext,
-} from "@reach/combobox";
+} from "@yoziyo/combobox";
 import {
 	Listbox,
 	ListboxInput,
@@ -46,8 +46,8 @@ import {
 	ListboxOption,
 	ListboxGroup,
 	ListboxGroupLabel,
-} from "@reach/listbox";
-import { Dialog, DialogOverlay, DialogContent } from "@reach/dialog";
+} from "@yoziyo/listbox";
+import { Dialog, DialogOverlay, DialogContent } from "@yoziyo/dialog";
 import {
 	Menu,
 	MenuList,
@@ -56,9 +56,9 @@ import {
 	MenuItems,
 	MenuPopover,
 	MenuLink,
-} from "@reach/menu-button";
-import { Portal } from "@reach/portal";
-import { useRect, Rect } from "@reach/rect";
+} from "@yoziyo/menu-button";
+import { Portal } from "@yoziyo/portal";
+import { useRect, Rect } from "@yoziyo/rect";
 import {
 	Slider,
 	SliderInput,
@@ -66,7 +66,7 @@ import {
 	SliderRange,
 	SliderHandle,
 	SliderMarker,
-} from "@reach/slider";
+} from "@yoziyo/slider";
 import {
 	Tabs,
 	TabList,
@@ -74,10 +74,10 @@ import {
 	TabPanels,
 	TabPanel,
 	useTabsContext,
-} from "@reach/tabs";
-import { useTooltip, TooltipPopup, Tooltip } from "@reach/tooltip";
-import { VisuallyHidden } from "@reach/visually-hidden";
-import { useWindowSize, WindowSize } from "@reach/window-size";
+} from "@yoziyo/tabs";
+import { useTooltip, TooltipPopup, Tooltip } from "@yoziyo/tooltip";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { useWindowSize, WindowSize } from "@yoziyo/window-size";
 import { Link as GatsbyLink } from "gatsby";
 import { matchSorter } from "match-sorter";
 import { useTransition, animated } from "@react-spring/web";

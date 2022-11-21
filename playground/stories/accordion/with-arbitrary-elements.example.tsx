@@ -4,12 +4,12 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
+} from "@yoziyo/accordion";
 import { action } from "@storybook/addon-actions";
-import { VisuallyHidden } from "@reach/visually-hidden";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
-import "@reach/accordion/styles.css";
-import "@reach/menu-button/styles.css";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
+import "@yoziyo/accordion/styles.css";
+import "@yoziyo/menu-button/styles.css";
 
 let name = "With Arbitrary Elements";
 

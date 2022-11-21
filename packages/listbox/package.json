@@ -16,18 +16,18 @@
 		"build": "tsup"
 	},
 	"dependencies": {
-		"@reach/auto-id": "workspace:*",
-		"@reach/descendants": "workspace:*",
-		"@reach/machine": "workspace:*",
-		"@reach/polymorphic": "workspace:*",
-		"@reach/popover": "workspace:*",
-		"@reach/utils": "workspace:*",
+		"@yoziyo/auto-id": "workspace:*",
+		"@yoziyo/descendants": "workspace:*",
+		"@yoziyo/machine": "workspace:*",
+		"@yoziyo/polymorphic": "workspace:*",
+		"@yoziyo/popover": "workspace:*",
+		"@yoziyo/utils": "workspace:*",
 		"tiny-invariant": "^1.2.0"
 	},
 	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
+		"@yoziyo-internal/dev": "workspace:*",
+		"@yoziyo-internal/test": "workspace:*",
+		"@yoziyo-internal/tsconfig": "workspace:*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"tsup": "^6.1.3"

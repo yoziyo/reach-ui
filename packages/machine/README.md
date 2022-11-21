@@ -1,6 +1,6 @@
-# @reach/machine
+# @yoziyo/machine
 
-[![Stable release](https://img.shields.io/npm/v/@reach/machine.svg)](https://npm.im/@reach/machine) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@yoziyo/machine.svg)](https://npm.im/@yoziyo/machine) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 State machine utilities for the Reach UI library.
 

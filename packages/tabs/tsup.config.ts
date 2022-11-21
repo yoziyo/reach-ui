@@ -1,5 +1,5 @@
 import type { defineConfig } from "tsup";
-import { getTsupConfig, getPackageInfo } from "@reach-internal/dev/tsup.js";
+import { getTsupConfig, getPackageInfo } from "@yoziyo-internal/dev/tsup.js";
 
 type TsupConfig = ReturnType<typeof defineConfig>;
 

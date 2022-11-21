@@ -1,4 +1,4 @@
-# `@reach/popover`
+# `@yoziyo/popover`
 
 ## 0.18.0
 
@@ -19,7 +19,7 @@
 
 - `targetRect` is now observed when the popover is hidden. This fixes a bug where in some cases the popover appeared in the wrong position after reappearing. ([#943](https://github.com/reach/reach-ui/pull/943))
 - Updated dependencies:
-  - `@reach/portal@0.18.0`
-  - `@reach/rect@0.18.0`
-  - `@reach/utils@0.18.0`
-  - `@reach/polymorphic@0.18.0`
+  - `@yoziyo/portal@0.18.0`
+  - `@yoziyo/rect@0.18.0`
+  - `@yoziyo/utils@0.18.0`
+  - `@yoziyo/polymorphic@0.18.0`

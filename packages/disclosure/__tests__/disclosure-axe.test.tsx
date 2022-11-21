@@ -2,13 +2,13 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, act, fireEvent } from "@reach-internal/test/utils";
+import { cleanup, render, act, fireEvent } from "@yoziyo-internal/test/utils";
 import { axe } from "vitest-axe";
 import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@reach/disclosure";
+} from "@yoziyo/disclosure";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

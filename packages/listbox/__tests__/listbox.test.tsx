@@ -8,8 +8,8 @@ import {
 	act,
 	fireEvent,
 	keyType,
-} from "@reach-internal/test/utils";
-import type { ListboxProps } from "@reach/listbox";
+} from "@yoziyo-internal/test/utils";
+import type { ListboxProps } from "@yoziyo/listbox";
 import {
 	Listbox,
 	ListboxButton,
@@ -17,8 +17,8 @@ import {
 	ListboxPopover,
 	ListboxOption,
 	ListboxList,
-} from "@reach/listbox";
-import { VisuallyHidden } from "@reach/visually-hidden";
+} from "@yoziyo/listbox";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
 import { spy } from "sinon";
 import { afterEach, describe, expect, it, vi } from "vitest";
 

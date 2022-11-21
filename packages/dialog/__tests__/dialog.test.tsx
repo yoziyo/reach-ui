@@ -9,8 +9,8 @@ import {
 	render,
 	userEvent,
 	cleanup,
-} from "@reach-internal/test/utils";
-import { Dialog } from "@reach/dialog";
+} from "@yoziyo-internal/test/utils";
+import { Dialog } from "@yoziyo/dialog";
 import { expect, describe, beforeEach, afterEach, it } from "vitest";
 
 function getOverlay(container: Element) {

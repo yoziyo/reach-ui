@@ -1,4 +1,4 @@
-# `@reach/tooltip`
+# `@yoziyo/tooltip`
 
 ## 0.18.0
 
@@ -19,9 +19,9 @@
 
 - Fix types to allow for SVG elements to be used in `useTooltip`
 - Updated dependencies:
-  - `@reach/auto-id@0.18.0`
-  - `@reach/portal@0.18.0`
-  - `@reach/rect@0.18.0`
-  - `@reach/utils@0.18.0`
-  - `@reach/visually-hidden@0.18.0`
-  - `@reach/polymorphic@0.18.0`
+  - `@yoziyo/auto-id@0.18.0`
+  - `@yoziyo/portal@0.18.0`
+  - `@yoziyo/rect@0.18.0`
+  - `@yoziyo/utils@0.18.0`
+  - `@yoziyo/visually-hidden@0.18.0`
+  - `@yoziyo/polymorphic@0.18.0`

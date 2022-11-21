@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Popover, positionDefault, positionMatchWidth } from "@reach/popover";
+import { Popover, positionDefault, positionMatchWidth } from "@yoziyo/popover";
 
 let name = "Basic";
 

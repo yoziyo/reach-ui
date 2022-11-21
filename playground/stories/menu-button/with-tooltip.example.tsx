@@ -2,10 +2,10 @@
 
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
-import { Tooltip } from "@reach/tooltip";
-import "@reach/menu-button/styles.css";
-import "@reach/tooltip/styles.css";
+import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
+import { Tooltip } from "@yoziyo/tooltip";
+import "@yoziyo/menu-button/styles.css";
+import "@yoziyo/tooltip/styles.css";
 
 let name = "With Tooltip";
 

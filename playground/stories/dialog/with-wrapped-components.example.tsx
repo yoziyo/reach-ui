@@ -1,6 +1,6 @@
 import * as React from "react";
-import { DialogOverlay, DialogContent } from "@reach/dialog";
-import "@reach/dialog/styles.css";
+import { DialogOverlay, DialogContent } from "@yoziyo/dialog";
+import "@yoziyo/dialog/styles.css";
 
 let name = "With Wrapped Components";
 

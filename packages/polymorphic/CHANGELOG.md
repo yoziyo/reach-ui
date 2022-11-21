@@ -1,4 +1,4 @@
-# `@reach/polymorphic`
+# `@yoziyo/polymorphic`
 
 ## 0.18.0
 

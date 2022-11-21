@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@yoziyo/tabs";
 import { action } from "@storybook/addon-actions";
-import "@reach/tabs/styles.css";
+import "@yoziyo/tabs/styles.css";
 
 let name = "With manual activation";
 

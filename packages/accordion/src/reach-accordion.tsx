@@ -1,5 +1,5 @@
 /**
- * Welcome to @reach/accordion!
+ * Welcome to @yoziyo/accordion!
  *
  * TODO: Animation examples
  *
@@ -17,18 +17,18 @@ import {
 	useControlledState,
 	composeEventHandlers,
 	useStatefulRefValue,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+} from "@yoziyo/utils";
+import type * as Polymorphic from "@yoziyo/polymorphic";
 import {
 	createDescendantContext,
 	DescendantProvider,
 	useDescendant,
 	useDescendantKeyDown,
 	useDescendantsInit,
-} from "@reach/descendants";
-import { useId } from "@reach/auto-id";
+} from "@yoziyo/descendants";
+import { useId } from "@yoziyo/auto-id";
 
-import type { Descendant } from "@reach/descendants";
+import type { Descendant } from "@yoziyo/descendants";
 
 const AccordionDescendantContext = createDescendantContext<AccordionDescendant>(
 	"AccordionDescendantContext"
@@ -212,7 +212,7 @@ interface AccordionProps {
 	 * a read-only accordion panel to let them know why it does not toggle as may
 	 * be expected.
 	 *
-	 * TODO: Create example with @reach/alert.
+	 * TODO: Create example with @yoziyo/alert.
 	 *
 	 * @see Docs https://reach.tech/accordion#accordion-onchange
 	 */

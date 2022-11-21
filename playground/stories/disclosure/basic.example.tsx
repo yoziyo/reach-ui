@@ -3,7 +3,7 @@ import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@reach/disclosure";
+} from "@yoziyo/disclosure";
 
 let name = "Basic";
 

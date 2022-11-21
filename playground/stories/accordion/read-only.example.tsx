@@ -1,11 +1,11 @@
 import * as React from "react";
-import "@reach/accordion/styles.css";
+import "@yoziyo/accordion/styles.css";
 import {
 	Accordion,
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
+} from "@yoziyo/accordion";
 
 let name = "Read Only";
 

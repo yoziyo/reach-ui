@@ -1,6 +1,6 @@
 import * as React from "react";
-import { CustomCheckbox } from "@reach/checkbox";
-import "@reach/checkbox/styles.css";
+import { CustomCheckbox } from "@yoziyo/checkbox";
+import "@yoziyo/checkbox/styles.css";
 
 let name = "CustomCheckbox Group";
 

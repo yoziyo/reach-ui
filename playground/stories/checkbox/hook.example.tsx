@@ -1,6 +1,6 @@
 import * as React from "react";
-import { useMixedCheckbox } from "@reach/checkbox";
-import "@reach/checkbox/styles.css";
+import { useMixedCheckbox } from "@yoziyo/checkbox";
+import "@yoziyo/checkbox/styles.css";
 
 let name = "With useMixedCheckbox hook";
 

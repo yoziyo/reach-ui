@@ -1,6 +1,6 @@
 import * as React from "react";
-import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
-import "@reach/skip-nav/styles.css";
+import { SkipNavLink, SkipNavContent } from "@yoziyo/skip-nav";
+import "@yoziyo/skip-nav/styles.css";
 import { action } from "@storybook/addon-actions";
 
 let name = "With custom ID";

@@ -6,9 +6,9 @@ import {
 	TabPanels,
 	TabPanel,
 	useTabsContext,
-} from "@reach/tabs";
-import { useRect } from "@reach/rect";
-import "@reach/tabs/styles.css";
+} from "@yoziyo/tabs";
+import { useRect } from "@yoziyo/rect";
+import "@yoziyo/tabs/styles.css";
 
 let name = "Animated Bar";
 

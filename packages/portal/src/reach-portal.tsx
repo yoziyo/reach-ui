@@ -1,5 +1,5 @@
 /**
- * Welcome to @reach/portal!
+ * Welcome to @yoziyo/portal!
  *
  * Creates and appends a DOM node to the end of `document.body` and renders a
  * React tree into it. Useful for rendering a natural React element hierarchy
@@ -15,7 +15,7 @@ import * as React from "react";
 import {
 	useForceUpdate,
 	useIsomorphicLayoutEffect as useLayoutEffect,
-} from "@reach/utils";
+} from "@yoziyo/utils";
 import { createPortal } from "react-dom";
 
 declare const __DEV__: boolean;
@@ -40,14 +40,14 @@ const PortalImpl: React.FC<PortalProps> = ({
 			if (containerRef != null) {
 				if (typeof containerRef !== "object" || !("current" in containerRef)) {
 					console.warn(
-						"@reach/portal: Invalid value passed to the `containerRef` of a " +
+						"@yoziyo/portal: Invalid value passed to the `containerRef` of a " +
 							"`Portal`. The portal will be appended to the document body, but if " +
 							"you want to attach it to another DOM node you must pass a valid " +
 							"React ref object to `containerRef`."
 					);
 				} else if (containerRef.current == null) {
 					console.warn(
-						"@reach/portal: A ref was passed to the `containerRef` prop of a " +
+						"@yoziyo/portal: A ref was passed to the `containerRef` prop of a " +
 							"`Portal`, but no DOM node was attached to it. Be sure to pass the " +
 							"ref to a DOM component.\n\nIf you are forwarding the ref from " +
 							"another component, be sure to use the React.forwardRef API. " +

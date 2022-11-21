@@ -3,7 +3,7 @@ import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
-} from "@reach/alert-dialog";
+} from "@yoziyo/alert-dialog";
 
 let name = "Basic (TS)";
 

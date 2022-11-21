@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Slider, SliderMarker } from "@reach/slider";
-import "@reach/slider/styles.css";
+import { Slider, SliderMarker } from "@yoziyo/slider";
+import "@yoziyo/slider/styles.css";
 import "./examples.css";
 
 let name = "Controlled";

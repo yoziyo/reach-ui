@@ -1,6 +1,6 @@
-# @reach/descendants
+# @yoziyo/descendants
 
-[![Stable release](https://img.shields.io/npm/v/@reach/descendants.svg)](https://npm.im/@reach/descendants) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@yoziyo/descendants.svg)](https://npm.im/@yoziyo/descendants) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 A descendant index solution for better accessibility support in compound components.
 
@@ -251,7 +251,7 @@ import {
 	DescendantProvider,
 	useDescendant,
 	useDescendantsInit,
-} from "@reach/descendants";
+} from "@yoziyo/descendants";
 
 let DescendantContext = createDescendantContext("DescendantContext");
 let MenuContext = createContext();

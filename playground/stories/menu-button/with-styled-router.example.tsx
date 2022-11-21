@@ -6,10 +6,10 @@ import {
 	MenuButton,
 	MenuLink,
 	MenuItem,
-} from "@reach/menu-button";
+} from "@yoziyo/menu-button";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import styled from "styled-components";
-import "@reach/menu-button/styles.css";
+import "@yoziyo/menu-button/styles.css";
 
 let name = "With React Router Links + Styled Components";
 

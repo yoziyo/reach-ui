@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
-import "@reach/tabs/styles.css";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@yoziyo/tabs";
+import "@yoziyo/tabs/styles.css";
 
 let name = "Disabled Tabs";
 

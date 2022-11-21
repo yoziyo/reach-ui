@@ -6,9 +6,9 @@ import {
 	MenuLink,
 	MenuButton,
 	MenuItem,
-} from "@reach/menu-button";
+} from "@yoziyo/menu-button";
 import styled from "styled-components";
-import "@reach/menu-button/styles.css";
+import "@yoziyo/menu-button/styles.css";
 
 let name = "With Styled Components";
 

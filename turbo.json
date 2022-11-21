@@ -1,10 +1,10 @@
 {
 	"pipeline": {
-		"@reach-internal/dev#build": {
+		"@yoziyo-internal/dev#build": {
 			"outputs": ["dist/**"]
 		},
 		"build": {
-			"dependsOn": ["@reach-internal/dev#build"],
+			"dependsOn": ["@yoziyo-internal/dev#build"],
 			"outputs": ["dist/**"]
 		},
 		"lint": {

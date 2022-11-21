@@ -13,16 +13,16 @@
 		"directory": "packages/popover"
 	},
 	"dependencies": {
-		"@reach/polymorphic": "workspace:*",
-		"@reach/portal": "workspace:*",
-		"@reach/rect": "workspace:*",
-		"@reach/utils": "workspace:*",
+		"@yoziyo/polymorphic": "workspace:*",
+		"@yoziyo/portal": "workspace:*",
+		"@yoziyo/rect": "workspace:*",
+		"@yoziyo/utils": "workspace:*",
 		"tabbable": "^5.3.3"
 	},
 	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
+		"@yoziyo-internal/dev": "workspace:*",
+		"@yoziyo-internal/test": "workspace:*",
+		"@yoziyo-internal/tsconfig": "workspace:*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"tsup": "^6.1.3"

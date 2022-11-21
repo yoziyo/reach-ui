@@ -2,10 +2,10 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, act, render } from "@reach-internal/test/utils";
+import { cleanup, act, render } from "@yoziyo-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@yoziyo/tabs";
 
 import { afterEach, describe, expect, it, vi } from "vitest";
 

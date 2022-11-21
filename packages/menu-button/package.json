@@ -16,15 +16,15 @@
 		"build": "tsup"
 	},
 	"dependencies": {
-		"@reach/dropdown": "workspace:*",
-		"@reach/polymorphic": "workspace:*",
-		"@reach/popover": "workspace:*",
-		"@reach/utils": "workspace:*"
+		"@yoziyo/dropdown": "workspace:*",
+		"@yoziyo/polymorphic": "workspace:*",
+		"@yoziyo/popover": "workspace:*",
+		"@yoziyo/utils": "workspace:*"
 	},
 	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
+		"@yoziyo-internal/dev": "workspace:*",
+		"@yoziyo-internal/test": "workspace:*",
+		"@yoziyo-internal/tsconfig": "workspace:*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-is": "^17.0.2",

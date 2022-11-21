@@ -1,7 +1,7 @@
 import * as React from "react";
-import { VisuallyHidden } from "@reach/visually-hidden";
-import { Listbox, ListboxOption } from "@reach/listbox";
-import "@reach/listbox/styles.css";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { Listbox, ListboxOption } from "@yoziyo/listbox";
+import "@yoziyo/listbox/styles.css";
 
 let name = "Dynamic content";
 

@@ -1,5 +1,5 @@
 {
-	"name": "@reach-internal/tsconfig",
+	"name": "@yoziyo-internal/tsconfig",
 	"version": "0.0.0",
 	"private": true,
 	"files": [

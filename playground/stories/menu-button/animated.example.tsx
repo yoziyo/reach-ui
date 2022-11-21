@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
+import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
 import { action } from "@storybook/addon-actions";
-import "@reach/menu-button/styles.css";
+import "@yoziyo/menu-button/styles.css";
 import "./animate.css";
 
 let name = "Animated";

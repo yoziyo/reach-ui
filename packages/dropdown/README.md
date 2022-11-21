@@ -1,6 +1,6 @@
-# @reach/dropdown
+# @yoziyo/dropdown
 
-[![Stable release](https://img.shields.io/npm/v/@reach/dropdown.svg)](https://npm.im/@reach/dropdown) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@yoziyo/dropdown.svg)](https://npm.im/@yoziyo/dropdown) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 A React dropdown menu.
 

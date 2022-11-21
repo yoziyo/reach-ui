@@ -1,5 +1,5 @@
 /**
- * Welcome to @reach/listbox!
+ * Welcome to @yoziyo/listbox!
  *
  * See NOTES.md for some background info if you're interested!
  *
@@ -25,9 +25,9 @@
  */
 
 import * as React from "react";
-import { useId } from "@reach/auto-id";
-import { Popover, positionMatchWidth } from "@reach/popover";
-import type { PopoverProps } from "@reach/popover";
+import { useId } from "@yoziyo/auto-id";
+import { Popover, positionMatchWidth } from "@yoziyo/popover";
+import type { PopoverProps } from "@yoziyo/popover";
 import {
 	createDescendantContext,
 	DescendantProvider,
@@ -35,8 +35,8 @@ import {
 	useDescendantKeyDown,
 	useDescendants,
 	useDescendantsInit,
-} from "@reach/descendants";
-import type { Descendant } from "@reach/descendants";
+} from "@yoziyo/descendants";
+import type { Descendant } from "@yoziyo/descendants";
 import {
 	composeEventHandlers,
 	createNamedContext,
@@ -50,11 +50,11 @@ import {
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	useStableCallback,
 	useStatefulRefValue,
-} from "@reach/utils";
-import type { DistributiveOmit } from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
-import { useMachine, useCreateMachine } from "@reach/machine";
-import type { StateMachine } from "@reach/machine";
+} from "@yoziyo/utils";
+import type { DistributiveOmit } from "@yoziyo/utils";
+import type * as Polymorphic from "@yoziyo/polymorphic";
+import { useMachine, useCreateMachine } from "@yoziyo/machine";
+import type { StateMachine } from "@yoziyo/machine";
 import {
 	createMachineDefinition,
 	ListboxEvents,

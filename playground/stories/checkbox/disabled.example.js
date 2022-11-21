@@ -1,6 +1,6 @@
 import * as React from "react";
-import { MixedCheckbox } from "@reach/checkbox";
-import "@reach/checkbox/styles.css";
+import { MixedCheckbox } from "@yoziyo/checkbox";
+import "@yoziyo/checkbox/styles.css";
 
 const name = "Disabled MixedCheckbox";
 

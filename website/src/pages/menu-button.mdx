@@ -56,12 +56,12 @@ function Example() {
 
 ## Installation
 
-From the command line in your project directory, run `npm install @reach/menu-button` or `yarn add @reach/menu-button`. Then import the components and styles that you need:
+From the command line in your project directory, run `npm install @yoziyo/menu-button` or `yarn add @yoziyo/menu-button`. Then import the components and styles that you need:
 
 ```bash
-npm install @reach/menu-button
+npm install @yoziyo/menu-button
 # or
-yarn add @reach/menu-button
+yarn add @yoziyo/menu-button
 ```
 
 ```js
@@ -73,8 +73,8 @@ import {
 	MenuItems,
 	MenuPopover,
 	MenuLink,
-} from "@reach/menu-button";
-import "@reach/menu-button/styles.css";
+} from "@yoziyo/menu-button";
+import "@yoziyo/menu-button/styles.css";
 ```
 
 ## Component API
@@ -593,7 +593,7 @@ Handles linking to a different page in the menu. By default it renders `<a>`, bu
 Must be a direct child of a `<MenuList>`.
 
 ```jsx
-import { Link } from "@reach/router";
+import { Link } from "@yoziyo/router";
 <MenuList>
 	<MenuLink as={Link} to="somewhere/else">
 		Somewhere w/ Reach Router
@@ -780,7 +780,7 @@ However, if you have no text and only an icon, please make sure your icon has a 
 </MenuButton>
 
 // add screen reader only text for svgs
-import { VisuallyHidden } from "@reach/visually-hidden"
+import { VisuallyHidden } from "@yoziyo/visually-hidden"
 <MenuButton>
   <VisuallyHidden>Actions</VisuallyHidden>
   <svg aria-hidden>

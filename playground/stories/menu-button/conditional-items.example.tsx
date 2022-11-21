@@ -1,7 +1,7 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
-import "@reach/menu-button/styles.css";
+import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
+import "@yoziyo/menu-button/styles.css";
 
 let name = "Conditional Items";
 

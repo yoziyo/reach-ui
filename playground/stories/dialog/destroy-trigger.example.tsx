@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Dialog } from "@reach/dialog";
-import "@reach/dialog/styles.css";
+import { Dialog } from "@yoziyo/dialog";
+import "@yoziyo/dialog/styles.css";
 
 let name = "Destroy Trigger";
 

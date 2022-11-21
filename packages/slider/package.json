@@ -16,14 +16,14 @@
 		"build": "tsup"
 	},
 	"dependencies": {
-		"@reach/auto-id": "workspace:*",
-		"@reach/polymorphic": "workspace:*",
-		"@reach/utils": "workspace:*"
+		"@yoziyo/auto-id": "workspace:*",
+		"@yoziyo/polymorphic": "workspace:*",
+		"@yoziyo/utils": "workspace:*"
 	},
 	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
+		"@yoziyo-internal/dev": "workspace:*",
+		"@yoziyo-internal/test": "workspace:*",
+		"@yoziyo-internal/tsconfig": "workspace:*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"tsup": "^6.1.3"

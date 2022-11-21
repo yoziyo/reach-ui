@@ -1,6 +1,6 @@
-# @reach/slider
+# @yoziyo/slider
 
-[![Stable release](https://img.shields.io/npm/v/@reach/slider.svg)](https://npm.im/@reach/slider) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@yoziyo/slider.svg)](https://npm.im/@yoziyo/slider) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/slider) | [Source](https://github.com/reach/reach-ui/tree/main/packages/slider) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#slider)
 
@@ -14,8 +14,8 @@ import {
 	SliderRange,
 	SliderHandle,
 	SliderMarker,
-} from "@reach/slider";
-import "@reach/slider/styles.css";
+} from "@yoziyo/slider";
+import "@yoziyo/slider/styles.css";
 
 function Example() {
 	return <Slider min={0} max={200} step={10} />;

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Table } from "./Table";
-import { VisuallyHidden } from "@reach/visually-hidden";
+import { VisuallyHidden } from "@yoziyo/visually-hidden";
 
 /*
 type PropDef = {

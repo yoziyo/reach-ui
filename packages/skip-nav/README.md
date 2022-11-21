@@ -1,6 +1,6 @@
-# @reach/skip-nav
+# @yoziyo/skip-nav
 
-[![Stable release](https://img.shields.io/npm/v/@reach/skip-nav.svg)](https://npm.im/@reach/skip-nav) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@yoziyo/skip-nav.svg)](https://npm.im/@yoziyo/skip-nav) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/skip-nav) | [Source](https://github.com/reach/reach-ui/tree/main/packages/skip-nav) | [WAI-ARIA](https://webaim.org/techniques/skipnav/)
 
@@ -9,8 +9,8 @@ Skip navigation link for screen reader and keyboard users. Because the main cont
 If the user does not navigate with the keyboard, they won't see the link.
 
 ```jsx
-import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
-import "@reach/skip-nav/styles.css";
+import { SkipNavLink, SkipNavContent } from "@yoziyo/skip-nav";
+import "@yoziyo/skip-nav/styles.css";
 
 ReactDOM.return(
 	<React.Fragment>

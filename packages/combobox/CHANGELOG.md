@@ -1,4 +1,4 @@
-# `@reach/combobox`
+# `@yoziyo/combobox`
 
 ## 0.18.0
 
@@ -21,9 +21,9 @@
 - Fix bug that prevents caret from moving up/down on keypress events in a combobox rendered as textarea
 - Fixed a bug to ensure that `ArrowUp` and `ArrowDown` share behavior when the combobox popover is hidden
 - Updated dependencies:
-  - `@reach/popover@0.18.0`
-  - `@reach/auto-id@0.18.0`
-  - `@reach/descendants@0.18.0`
-  - `@reach/portal@0.18.0`
-  - `@reach/utils@0.18.0`
-  - `@reach/polymorphic@0.18.0`
+  - `@yoziyo/popover@0.18.0`
+  - `@yoziyo/auto-id@0.18.0`
+  - `@yoziyo/descendants@0.18.0`
+  - `@yoziyo/portal@0.18.0`
+  - `@yoziyo/utils@0.18.0`
+  - `@yoziyo/polymorphic@0.18.0`

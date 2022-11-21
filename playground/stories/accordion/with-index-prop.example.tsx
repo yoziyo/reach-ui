@@ -4,9 +4,9 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
+} from "@yoziyo/accordion";
 import { action } from "@storybook/addon-actions";
-import "@reach/accordion/styles.css";
+import "@yoziyo/accordion/styles.css";
 
 let name = "With index prop on items";
 
