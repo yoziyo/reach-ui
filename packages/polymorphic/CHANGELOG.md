@@ -1,4 +1,4 @@
-# `@yoziyo/polymorphic`
+# `@reach-ui-fork/polymorphic`
 
 ## 0.18.0
 

@@ -10,8 +10,8 @@ import type {
 	StateMachine,
 	Typestate,
 } from "@xstate/fsm";
-import { isString, useConstant } from "@yoziyo/utils";
-import type { DistributiveOmit } from "@yoziyo/utils";
+import { isString, useConstant } from "@reach-ui-fork/utils";
+import type { DistributiveOmit } from "@reach-ui-fork/utils";
 
 declare const __DEV__: boolean;
 

@@ -6,15 +6,15 @@ const packagesDir = path.resolve(__dirname, "../../packages");
 const packages = fs.readdirSync(packagesDir);
 
 const alias = packages.reduce((memo, pkg) => {
-	memo[`@yoziyo/${pkg}/styles.css`] = path.join(
+	memo[`@reach-ui-fork/${pkg}/styles.css`] = path.join(
 		packagesDir,
 		`${pkg}/styles.css`
 	);
 	let pkgJson = require(path.join(packagesDir, `${pkg}/package.json`));
 	if (pkgJson.main) {
-		memo[`@yoziyo/${pkg}`] = path.join(packagesDir, pkg, pkgJson.main);
+		memo[`@reach-ui-fork/${pkg}`] = path.join(packagesDir, pkg, pkgJson.main);
 	} else {
-		memo[`@yoziyo/${pkg}`] = path.join(packagesDir, pkg, "src");
+		memo[`@reach-ui-fork/${pkg}`] = path.join(packagesDir, pkg, "src");
 	}
 	return memo;
 }, {});

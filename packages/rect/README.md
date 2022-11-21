@@ -1,13 +1,13 @@
-# @yoziyo/rect
+# @reach-ui-fork/rect
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/rect.svg)](https://npm.im/@yoziyo/rect) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/rect.svg)](https://npm.im/@reach-ui-fork/rect) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/rect) | [Source](https://github.com/reach/reach-ui/tree/main/packages/rect)
 
 Measures DOM elements (aka. bounding client rect). See also [Element.getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 
 ```jsx
-import { Rect, useRect } from "@yoziyo/rect";
+import { Rect, useRect } from "@reach-ui-fork/rect";
 
 function Example() {
 	const ref = React.useRef();

@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/alert-dialog!
+ * Welcome to @reach-ui-fork/alert-dialog!
  *
  * A modal dialog that interrupts the user's workflow to get a response, usually
  * some sort of confirmation. This is different than a typical Dialog in that it
@@ -31,18 +31,18 @@
  */
 
 import * as React from "react";
-import { DialogOverlay, DialogContent } from "@yoziyo/dialog";
-import { useId } from "@yoziyo/auto-id";
+import { DialogOverlay, DialogContent } from "@reach-ui-fork/dialog";
+import { useId } from "@reach-ui-fork/auto-id";
 import {
 	createContext,
 	getOwnerDocument,
 	makeId,
 	useComposedRefs,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 import invariant from "tiny-invariant";
 
-import type { DialogProps, DialogContentProps } from "@yoziyo/dialog";
+import type { DialogProps, DialogContentProps } from "@reach-ui-fork/dialog";
 
 let [AlertDialogProvider, useAlertDialogCtx] =
 	createContext<AlertDialogContextValue>("AlertDialog");
@@ -116,13 +116,13 @@ const AlertDialogContent = React.forwardRef(function AlertDialogContent(
 		if (labelId) {
 			invariant(
 				ownerDocument.getElementById(labelId),
-				`@yoziyo/alert-dialog: You must render a \`<AlertDialogLabel>\`
+				`@reach-ui-fork/alert-dialog: You must render a \`<AlertDialogLabel>\`
           inside an \`<AlertDialog/>\`.`
 			);
 		}
 		invariant(
 			leastDestructiveRef,
-			`@yoziyo/alert-dialog: You must provide a \`leastDestructiveRef\` to
+			`@reach-ui-fork/alert-dialog: You must provide a \`leastDestructiveRef\` to
           \`<AlertDialog>\` or \`<AlertDialogOverlay/>\`. Please see
           https://ui.reach.tech/alert-dialog/#alertdialogoverlay-leastdestructiveref`
 		);

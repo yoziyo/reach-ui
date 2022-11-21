@@ -1,7 +1,7 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
-import "@yoziyo/menu-button/styles.css";
+import { Menu, MenuList, MenuButton, MenuItem } from "@reach-ui-fork/menu-button";
+import "@reach-ui-fork/menu-button/styles.css";
 
 let name = "With Other Tabbables";
 

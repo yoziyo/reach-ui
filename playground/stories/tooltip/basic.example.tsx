@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Tooltip } from "@yoziyo/tooltip";
-import "@yoziyo/tooltip/styles.css";
+import { Tooltip } from "@reach-ui-fork/tooltip";
+import "@reach-ui-fork/tooltip/styles.css";
 
 let name = "Basic";
 

@@ -1,8 +1,8 @@
-import { assign } from "@yoziyo/machine";
-import { getOwnerDocument } from "@yoziyo/utils";
+import { assign } from "@reach-ui-fork/machine";
+import { getOwnerDocument } from "@reach-ui-fork/utils";
 
 import type { ListboxDescendant, ListboxValue } from "./reach-listbox";
-import type { MachineEventWithRefs, StateMachine } from "@yoziyo/machine";
+import type { MachineEventWithRefs, StateMachine } from "@reach-ui-fork/machine";
 
 ////////////////////////////////////////////////////////////////////////////////
 // States

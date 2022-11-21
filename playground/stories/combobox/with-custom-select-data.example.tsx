@@ -5,14 +5,14 @@ import {
 	ComboboxList,
 	ComboboxOption as ReachComboboxOption,
 	ComboboxPopover,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 import { useCityMatch } from "./utils";
-import "@yoziyo/combobox/styles.css";
+import "@reach-ui-fork/combobox/styles.css";
 
 import type {
 	ComboboxProps as ReachComboboxProps,
 	ComboboxOptionProps as ReachComboboxOptionProps,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 
 let name = "With Custom onSelect Data (TS)";
 

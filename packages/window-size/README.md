@@ -1,13 +1,13 @@
-# @yoziyo/window-size
+# @reach-ui-fork/window-size
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/window-size.svg)](https://npm.im/@yoziyo/window-size) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/window-size.svg)](https://npm.im/@reach-ui-fork/window-size) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/window-size) | [Source](https://github.com/reach/reach-ui/tree/main/packages/window-size)
 
 Measure the current window dimensions.
 
 ```jsx
-import WindowSize, { useWindowSize } from "@yoziyo/window-size";
+import WindowSize, { useWindowSize } from "@reach-ui-fork/window-size";
 
 function Example() {
 	const { width, height } = useWindowSize();

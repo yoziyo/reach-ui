@@ -1,6 +1,6 @@
-# @yoziyo/tabs
+# @reach-ui-fork/tabs
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/tabs.svg)](https://npm.im/@yoziyo/tabs) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/tabs.svg)](https://npm.im/@reach-ui-fork/tabs) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/tabs) | [Source](https://github.com/reach/reach-ui/tree/main/packages/tabs) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#tabpanel)
 
@@ -11,8 +11,8 @@ The `Tab` and `TabPanel` elements are associated by their order in the tree. Non
 You can render any other elements you want inside of `Tabs`, but `TabList` should only render `Tab` elements, and `TabPanels` should only render `TabPanel` elements.
 
 ```jsx
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@yoziyo/tabs";
-import "@yoziyo/tabs/styles.css";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach-ui-fork/tabs";
+import "@reach-ui-fork/tabs/styles.css";
 
 function Example() {
 	return (

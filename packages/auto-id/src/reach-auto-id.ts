@@ -1,5 +1,5 @@
 /*
- * Welcome to @yoziyo/auto-id!
+ * Welcome to @reach-ui-fork/auto-id!
 
  * Let's see if we can make sense of why this hook exists and its
  * implementation.
@@ -57,7 +57,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
 import * as React from "react";
-import { useIsomorphicLayoutEffect as useLayoutEffect } from "@yoziyo/utils";
+import { useIsomorphicLayoutEffect as useLayoutEffect } from "@reach-ui-fork/utils";
 
 let serverHandoffComplete = false;
 let id = 0;

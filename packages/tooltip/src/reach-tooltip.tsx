@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/tooltip!
+ * Welcome to @reach-ui-fork/tooltip!
  *
  * When the user's mouse or focus rests on an element, a non-interactive popup
  * is displayed near it.
@@ -41,18 +41,18 @@
  */
 
 import * as React from "react";
-import { useId } from "@yoziyo/auto-id";
+import { useId } from "@reach-ui-fork/auto-id";
 import {
 	getDocumentDimensions,
 	getOwnerDocument,
 	makeId,
 	useComposedRefs,
 	composeEventHandlers,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
-import { Portal } from "@yoziyo/portal";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
-import { useRect } from "@yoziyo/rect";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
+import { Portal } from "@reach-ui-fork/portal";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
+import { useRect } from "@reach-ui-fork/rect";
 
 declare const __DEV__: boolean;
 
@@ -420,7 +420,7 @@ const Tooltip = React.forwardRef(function (
 		React.useEffect(() => {
 			if (DEPRECATED_ariaLabel) {
 				console.warn(
-					"The `ariaLabel prop is deprecated and will be removed from @yoziyo/tooltip in a future version of Reach UI. Please use `aria-label` instead."
+					"The `ariaLabel prop is deprecated and will be removed from @reach-ui-fork/tooltip in a future version of Reach UI. Please use `aria-label` instead."
 				);
 			}
 		}, [DEPRECATED_ariaLabel]);

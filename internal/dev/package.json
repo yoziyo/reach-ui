@@ -1,11 +1,11 @@
 {
-	"name": "@yoziyo-internal/dev",
+	"name": "@reach-ui-fork-internal/dev",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {},
 	"dependencies": {},
 	"devDependencies": {
-		"@yoziyo-internal/tsconfig": "workspace:*",
+		"@reach-ui-fork-internal/tsconfig": "workspace:*",
 		"tsup": "^6.1.3"
 	},
 	"peerDependencies": {

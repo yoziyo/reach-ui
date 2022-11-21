@@ -1,5 +1,5 @@
 {
-	"extends": "@yoziyo-internal/tsconfig/react-library.json",
+	"extends": "@reach-ui-fork-internal/tsconfig/react-library.json",
 	"include": ["."],
 	"exclude": ["node_modules", "dist", "__tests__/**/*", "examples"]
 }

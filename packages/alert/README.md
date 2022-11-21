@@ -1,6 +1,6 @@
-# @yoziyo/alert
+# @reach-ui-fork/alert
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/alert.svg)](https://npm.im/@yoziyo/alert) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/alert.svg)](https://npm.im/@reach-ui-fork/alert) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/alert) | [Source](https://github.com/reach/reach-ui/tree/main/packages/alert) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#alert)
 

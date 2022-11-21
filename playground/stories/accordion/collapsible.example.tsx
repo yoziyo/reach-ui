@@ -4,8 +4,8 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@yoziyo/accordion";
-import "@yoziyo/accordion/styles.css";
+} from "@reach-ui-fork/accordion";
+import "@reach-ui-fork/accordion/styles.css";
 
 let name = "Collapsible";
 

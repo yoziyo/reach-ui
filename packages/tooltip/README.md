@@ -1,6 +1,6 @@
-# @yoziyo/tooltip
+# @reach-ui-fork/tooltip
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/tooltip.svg)](https://npm.im/@yoziyo/tooltip) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/tooltip.svg)](https://npm.im/@reach-ui-fork/tooltip) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/tooltip) | [Source](https://github.com/reach/reach-ui/tree/main/packages/tooltip) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#tooltip)
 
@@ -15,9 +15,9 @@ A couple notes on using tooltips:
 _Touch Events_: Touch events are currently not supported. There's not a lot of research or examples of these types of tooltips on mobile. We have some ideas but need to validate them first before implementing. Please adjust your interfaces on mobile to account for this.
 
 ```jsx
-import { Tooltip, useTooltip, TooltipPopup } from "@yoziyo/tooltip";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
-import "@yoziyo/tooltip/styles.css";
+import { Tooltip, useTooltip, TooltipPopup } from "@reach-ui-fork/tooltip";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
+import "@reach-ui-fork/tooltip/styles.css";
 
 function Example() {
 	return (

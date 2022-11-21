@@ -1,39 +1,31 @@
 {
-	"name": "@yoziyo/utils",
-	"version": "0.18.1",
-	"description": "Internal, shared utilities for Reach UI.",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yoziyo/reach-ui",
-		"directory": "packages/utils"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@yoziyo-internal/dev": "workspace:*",
-		"@yoziyo-internal/test": "workspace:*",
-		"@yoziyo-internal/tsconfig": "workspace:*",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
-	},
-	"main": "./src/reach-utils.ts",
-	"types": "./src/reach-utils.ts",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-ui-fork/utils",
+  "version": "0.18.1",
+  "description": "Internal, shared utilities for Reach UI.",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoziyo/reach-ui",
+    "directory": "packages/utils"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": {},
+  "devDependencies": {
+    "@reach-ui-fork-internal/dev": "workspace:*",
+    "@reach-ui-fork-internal/test": "workspace:*",
+    "@reach-ui-fork-internal/tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-utils.cjs.js",
+  "types": "./dist/reach-utils.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-utils.mjs"
 }

@@ -2,7 +2,7 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, act } from "@yoziyo-internal/test/utils";
+import { cleanup, render, act } from "@reach-ui-fork-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
 import {
@@ -11,7 +11,7 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 import { matchSorter } from "match-sorter";
 import cities from "./cities";
 

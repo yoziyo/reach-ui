@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useRect } from "@yoziyo/rect";
+import { useRect } from "@reach-ui-fork/rect";
 
 let name = "Basic (useRect)";
 

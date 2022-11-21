@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Alert } from "@yoziyo/alert";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
-import { usePrevious } from "@yoziyo/utils";
+import { Alert } from "@reach-ui-fork/alert";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
+import { usePrevious } from "@reach-ui-fork/utils";
 
 const MESSAGE_TIMEOUT = 5000;
 

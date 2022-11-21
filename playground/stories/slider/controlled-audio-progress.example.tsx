@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Slider } from "@yoziyo/slider";
+import { Slider } from "@reach-ui-fork/slider";
 import { useAudio, timeToMs, msToTime } from "./utils";
-import "@yoziyo/slider/styles.css";
+import "@reach-ui-fork/slider/styles.css";
 
 let name = "Audio Progress";
 

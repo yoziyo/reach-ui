@@ -3,8 +3,8 @@ import {
 	DialogInner,
 	unstable_DialogWrapper as DialogWrapper,
 	DialogContent,
-} from "@yoziyo/dialog";
-import "@yoziyo/dialog/styles.css";
+} from "@reach-ui-fork/dialog";
+import "@reach-ui-fork/dialog/styles.css";
 
 const name = "Custom Portal Node";
 

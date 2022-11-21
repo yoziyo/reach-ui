@@ -5,10 +5,10 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@yoziyo/combobox";
-import { Alert } from "@yoziyo/alert";
+} from "@reach-ui-fork/combobox";
+import { Alert } from "@reach-ui-fork/alert";
 import { useCityMatch } from "./utils";
-import "@yoziyo/combobox/styles.css";
+import "@reach-ui-fork/combobox/styles.css";
 
 let name = "In a form";
 

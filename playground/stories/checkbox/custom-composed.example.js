@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import * as React from "react";
-import { CustomCheckboxContainer, CustomCheckboxInput } from "@yoziyo/checkbox";
-import "@yoziyo/checkbox/styles.css";
+import { CustomCheckboxContainer, CustomCheckboxInput } from "@reach-ui-fork/checkbox";
+import "@reach-ui-fork/checkbox/styles.css";
 
 let name = "CustomCheckbox Composed";
 

@@ -1,4 +1,4 @@
-# `@yoziyo/skip-nav`
+# `@reach-ui-fork/skip-nav`
 
 ## 0.18.0
 
@@ -20,4 +20,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

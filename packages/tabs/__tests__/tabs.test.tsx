@@ -7,7 +7,7 @@ import {
 	render,
 	fireEvent,
 	userEvent,
-} from "@yoziyo-internal/test/utils";
+} from "@reach-ui-fork-internal/test/utils";
 import {
 	Tabs,
 	TabList,
@@ -16,7 +16,7 @@ import {
 	TabPanel,
 	TabsKeyboardActivation,
 	TabsOrientation,
-} from "@yoziyo/tabs";
+} from "@reach-ui-fork/tabs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

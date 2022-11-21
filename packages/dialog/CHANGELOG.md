@@ -1,4 +1,4 @@
-# `@yoziyo/dialog`
+# `@reach-ui-fork/dialog`
 
 ## 0.18.0
 
@@ -18,6 +18,6 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/portal@0.18.0`
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/portal@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

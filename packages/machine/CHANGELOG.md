@@ -1,4 +1,4 @@
-# `@yoziyo/machine`
+# `@reach-ui-fork/machine`
 
 ## 0.18.0
 
@@ -16,4 +16,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`

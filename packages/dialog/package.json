@@ -1,49 +1,38 @@
 {
-	"name": "@yoziyo/dialog",
-	"version": "0.18.1",
-	"description": "Accessible React Modal Dialog.",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"sideEffects": [
-		"*.css"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yoziyo/reach-ui",
-		"directory": "packages/dialog"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@yoziyo/polymorphic": "workspace:*",
-		"@yoziyo/portal": "workspace:*",
-		"@yoziyo/utils": "workspace:*",
-		"react-focus-lock": "2.5.2",
-		"react-remove-scroll": "2.4.3"
-	},
-	"devDependencies": {
-		"@yoziyo-internal/dev": "workspace:*",
-		"@yoziyo-internal/test": "workspace:*",
-		"@yoziyo-internal/tsconfig": "workspace:*",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
-	},
-	"main": "./src/reach-dialog.tsx",
-	"types": "./src/reach-dialog.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist",
-		"styles.css"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-ui-fork/dialog",
+  "version": "0.18.1",
+  "description": "Accessible React Modal Dialog.",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "sideEffects": ["*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoziyo/reach-ui",
+    "directory": "packages/dialog"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": {
+    "@reach-ui-fork/polymorphic": "workspace:*",
+    "@reach-ui-fork/portal": "workspace:*",
+    "@reach-ui-fork/utils": "workspace:*",
+    "react-focus-lock": "2.5.2",
+    "react-remove-scroll": "2.4.3"
+  },
+  "devDependencies": {
+    "@reach-ui-fork-internal/dev": "workspace:*",
+    "@reach-ui-fork-internal/test": "workspace:*",
+    "@reach-ui-fork-internal/tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-dialog.cjs.js",
+  "types": "./dist/reach-dialog.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-dialog.mjs"
 }

@@ -1,45 +1,32 @@
 {
-	"name": "@yoziyo/skip-nav",
-	"version": "0.18.1",
-	"description": "Skip navigation links for screen reader and keyboard users.",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"sideEffects": [
-		"*.css"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yoziyo/reach-ui",
-		"directory": "packages/skip-nav"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@yoziyo/polymorphic": "workspace:*"
-	},
-	"devDependencies": {
-		"@yoziyo-internal/dev": "workspace:*",
-		"@yoziyo-internal/test": "workspace:*",
-		"@yoziyo-internal/tsconfig": "workspace:*",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
-	},
-	"main": "./src/reach-skip-nav.tsx",
-	"types": "./src/reach-skip-nav.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist",
-		"styles.css"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-ui-fork/skip-nav",
+  "version": "0.18.1",
+  "description": "Skip navigation links for screen reader and keyboard users.",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "sideEffects": ["*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoziyo/reach-ui",
+    "directory": "packages/skip-nav"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": { "@reach-ui-fork/polymorphic": "workspace:*" },
+  "devDependencies": {
+    "@reach-ui-fork-internal/dev": "workspace:*",
+    "@reach-ui-fork-internal/test": "workspace:*",
+    "@reach-ui-fork-internal/tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-skip-nav.cjs.js",
+  "types": "./dist/reach-skip-nav.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-skip-nav.mjs"
 }

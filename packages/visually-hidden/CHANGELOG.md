@@ -1,4 +1,4 @@
-# `@yoziyo/visually-hidden`
+# `@reach-ui-fork/visually-hidden`
 
 ## 0.18.0
 
@@ -16,4 +16,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

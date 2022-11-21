@@ -10,8 +10,8 @@ import {
 	simulateMouseClick,
 	simulateSpaceKeyClick,
 	simulateEnterKeyClick,
-} from "@yoziyo-internal/test/utils";
-import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
+} from "@reach-ui-fork-internal/test/utils";
+import { Menu, MenuList, MenuButton, MenuItem } from "@reach-ui-fork/menu-button";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

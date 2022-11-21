@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/disclosure!
+ * Welcome to @reach-ui-fork/disclosure!
  *
  * A disclosure is a button that controls visibility of a panel of content. When
  * the content inside the panel is hidden, it is often styled as a typical push
@@ -8,7 +8,7 @@
  * arrow or triangle typically points down.
  *
  * If you have a group of disclosures that stack vertically and exist within the
- * same logical context, you may want to use @yoziyo/accordion instead.
+ * same logical context, you may want to use @reach-ui-fork/accordion instead.
  *
  * @see Docs     https://reach.tech/disclosure
  * @see Source   https://github.com/reach/reach-ui/tree/main/packages/disclosure
@@ -22,9 +22,9 @@ import {
 	useComposedRefs,
 	composeEventHandlers,
 	useControlledState,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
-import { useId } from "@yoziyo/auto-id";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
+import { useId } from "@reach-ui-fork/auto-id";
 
 const [DisclosureProvider, useDisclosureCtx] =
 	createContext<DisclosureContextValue>("Disclosure");

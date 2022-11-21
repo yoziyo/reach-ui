@@ -1,4 +1,4 @@
-# `@yoziyo/listbox`
+# `@reach-ui-fork/listbox`
 
 ## 0.18.0
 
@@ -19,9 +19,9 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/popover@0.18.0`
-  - `@yoziyo/auto-id@0.18.0`
-  - `@yoziyo/descendants@0.18.0`
-  - `@yoziyo/machine@0.18.0`
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/popover@0.18.0`
+  - `@reach-ui-fork/auto-id@0.18.0`
+  - `@reach-ui-fork/descendants@0.18.0`
+  - `@reach-ui-fork/machine@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

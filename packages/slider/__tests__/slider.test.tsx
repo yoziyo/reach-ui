@@ -2,14 +2,14 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, fireEvent } from "@yoziyo-internal/test/utils";
+import { cleanup, render, fireEvent } from "@reach-ui-fork-internal/test/utils";
 import {
 	SliderHandle,
 	SliderInput,
 	SliderMarker,
 	SliderTrack,
 	SliderRange,
-} from "@yoziyo/slider";
+} from "@reach-ui-fork/slider";
 import { afterEach, describe, expect, it } from "vitest";
 
 afterEach(cleanup);

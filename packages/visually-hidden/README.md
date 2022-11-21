@@ -1,6 +1,6 @@
-# @yoziyo/visually-hidden
+# @reach-ui-fork/visually-hidden
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/visually-hidden.svg)](https://npm.im/@yoziyo/visually-hidden) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/visually-hidden.svg)](https://npm.im/@reach-ui-fork/visually-hidden) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/visually-hidden) | [Source](https://github.com/reach/reach-ui/tree/main/packages/visually-hidden) | [Origin](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility) | [Further reading](https://a11yproject.com/posts/how-to-hide-content/)
 
@@ -9,7 +9,7 @@ Provides text for screen readers that is visually hidden. It is the logical oppo
 In the following example, screen readers will announce "Save" and will ignore the icon; the browser displays the icon and ignores the text.
 
 ```jsx
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
 
 function Example() {
 	return (

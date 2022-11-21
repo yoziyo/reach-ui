@@ -3,8 +3,8 @@ import {
 	Slider,
 	SliderMarker,
 	SLIDER_ORIENTATION_VERTICAL,
-} from "@yoziyo/slider";
-import "@yoziyo/slider/styles.css";
+} from "@reach-ui-fork/slider";
+import "@reach-ui-fork/slider/styles.css";
 import "./examples.css";
 
 let name = "Vertical (TS)";

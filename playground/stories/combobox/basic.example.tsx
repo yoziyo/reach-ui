@@ -5,9 +5,9 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 import { useCityMatch } from "./utils";
-import "@yoziyo/combobox/styles.css";
+import "@reach-ui-fork/combobox/styles.css";
 
 let name = "Basic";
 

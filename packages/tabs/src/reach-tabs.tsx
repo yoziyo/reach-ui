@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/tabs!
+ * Welcome to @reach-ui-fork/tabs!
  *
  * An accessible tabs component.
  *
@@ -24,8 +24,8 @@ import {
 	useDescendantKeyDown,
 	useDescendantsInit,
 	useDescendants,
-} from "@yoziyo/descendants";
-import type { Descendant } from "@yoziyo/descendants";
+} from "@reach-ui-fork/descendants";
+import type { Descendant } from "@reach-ui-fork/descendants";
 import {
 	getOwnerDocument,
 	getComputedStyle,
@@ -39,9 +39,9 @@ import {
 	noop,
 	useComposedRefs,
 	composeEventHandlers,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
-import { useId } from "@yoziyo/auto-id";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
+import { useId } from "@reach-ui-fork/auto-id";
 
 const TabsDescendantsContext = createDescendantContext<TabDescendant>(
 	"TabsDescendantsContext"

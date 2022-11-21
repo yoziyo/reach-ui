@@ -1,11 +1,11 @@
 import * as React from "react";
-import "@yoziyo/accordion/styles.css";
+import "@reach-ui-fork/accordion/styles.css";
 import {
 	Accordion,
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@yoziyo/accordion";
+} from "@reach-ui-fork/accordion";
 import styled from "styled-components";
 
 let name = "With Arrows";

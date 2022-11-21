@@ -1,4 +1,4 @@
-# `@yoziyo/menu-button`
+# `@reach-ui-fork/menu-button`
 
 ## 0.18.0
 
@@ -19,7 +19,7 @@
 
 - Fixed an issue causing duplicate IDs across multiple instances ([#970](https://github.com/reach/reach-ui/pull/970))
 - Updated dependencies:
-  - `@yoziyo/popover@0.18.0`
-  - `@yoziyo/dropdown@0.18.0`
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/popover@0.18.0`
+  - `@reach-ui-fork/dropdown@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

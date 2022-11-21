@@ -8,8 +8,8 @@ import {
 	fireEvent,
 	act,
 	screen,
-} from "@yoziyo-internal/test/utils";
-import { Tooltip, LEAVE_TIMEOUT, MOUSE_REST_TIMEOUT } from "@yoziyo/tooltip";
+} from "@reach-ui-fork-internal/test/utils";
+import { Tooltip, LEAVE_TIMEOUT, MOUSE_REST_TIMEOUT } from "@reach-ui-fork/tooltip";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

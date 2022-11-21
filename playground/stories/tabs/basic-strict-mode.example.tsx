@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@yoziyo/tabs";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach-ui-fork/tabs";
 import { action } from "@storybook/addon-actions";
-import "@yoziyo/tabs/styles.css";
+import "@reach-ui-fork/tabs/styles.css";
 
 let name = "Basic (Strict Mode)";
 

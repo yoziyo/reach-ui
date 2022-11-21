@@ -5,9 +5,9 @@ import {
 	ComboboxList,
 	ComboboxPopover,
 	ComboboxOption,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 import { useCityMatch } from "./utils";
-import "@yoziyo/combobox/styles.css";
+import "@reach-ui-fork/combobox/styles.css";
 
 let name = "No Popover";
 

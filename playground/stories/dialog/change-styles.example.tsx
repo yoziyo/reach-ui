@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useTransition, animated, config } from "@react-spring/web";
-import { DialogOverlay, DialogContent } from "@yoziyo/dialog";
-import "@yoziyo/dialog/styles.css";
+import { DialogOverlay, DialogContent } from "@reach-ui-fork/dialog";
+import "@reach-ui-fork/dialog/styles.css";
 
 let name = "Change Styles";
 

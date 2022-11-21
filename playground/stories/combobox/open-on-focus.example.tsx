@@ -5,8 +5,8 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@yoziyo/combobox";
-import "@yoziyo/combobox/styles.css";
+} from "@reach-ui-fork/combobox";
+import "@reach-ui-fork/combobox/styles.css";
 
 let name = "Open on focus";
 

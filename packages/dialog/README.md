@@ -1,14 +1,14 @@
-# @yoziyo/dialog
+# @reach-ui-fork/dialog
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/dialog.svg)](https://npm.im/@yoziyo/dialog) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/dialog.svg)](https://npm.im/@reach-ui-fork/dialog) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/dialog) | [Source](https://github.com/reach/reach-ui/tree/main/packages/dialog) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
 
 An accessible dialog or modal window.
 
 ```jsx
-import { Dialog } from "@yoziyo/dialog";
-import "@yoziyo/dialog/styles.css";
+import { Dialog } from "@reach-ui-fork/dialog";
+import "@reach-ui-fork/dialog/styles.css";
 
 function Example(props) {
 	const [showDialog, setShowDialog] = React.useState(false);

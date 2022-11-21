@@ -1,4 +1,4 @@
-# `@yoziyo/descendants`
+# `@reach-ui-fork/descendants`
 
 ## 0.18.0
 
@@ -17,4 +17,4 @@
 
 - Fixed a tiny lil index ordering bug ([#827](https://github.com/reach/reach-ui/pull/827))
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`

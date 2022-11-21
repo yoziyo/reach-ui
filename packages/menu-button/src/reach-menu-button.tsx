@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/menu-button!
+ * Welcome to @reach-ui-fork/menu-button!
  *
  * An accessible dropdown menu for the common dropdown menu button design
  * pattern.
@@ -12,7 +12,7 @@
  */
 
 import * as React from "react";
-import { Popover } from "@yoziyo/popover";
+import { Popover } from "@reach-ui-fork/popover";
 import {
 	DropdownProvider,
 	useDropdownItem,
@@ -20,12 +20,12 @@ import {
 	useDropdownPopover,
 	useDropdownTrigger,
 	useDropdownContext,
-} from "@yoziyo/dropdown";
-import { noop } from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+} from "@reach-ui-fork/dropdown";
+import { noop } from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 import { isFragment } from "react-is";
 
-import type { Position } from "@yoziyo/popover";
+import type { Position } from "@reach-ui-fork/popover";
 
 declare const __DEV__: boolean;
 
@@ -298,7 +298,7 @@ const MenuLink = React.forwardRef(
 			React.useEffect(() => {
 				if (component) {
 					console.warn(
-						"[@yoziyo/menu-button]: Please use the `as` prop instead of `component`"
+						"[@reach-ui-fork/menu-button]: Please use the `as` prop instead of `component`"
 					);
 				}
 			}, [component]);

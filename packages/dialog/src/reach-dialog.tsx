@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 
 /**
- * Welcome to @yoziyo/dialog!
+ * Welcome to @reach-ui-fork/dialog!
  *
  * An accessible dialog or "modal" window.
  *
@@ -11,16 +11,16 @@
  */
 
 import * as React from "react";
-import { Portal } from "@yoziyo/portal";
-import type { PortalProps } from "@yoziyo/portal";
+import { Portal } from "@reach-ui-fork/portal";
+import type { PortalProps } from "@reach-ui-fork/portal";
 import {
 	composeEventHandlers,
 	createContext,
 	getOwnerDocument,
 	noop,
 	useComposedRefs,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 
@@ -129,7 +129,7 @@ const DialogInner = React.forwardRef(function DialogInner(
 		React.useEffect(() => {
 			if (lockFocusAcrossFramesIsDefined) {
 				console.warn(
-					`The unstable_lockFocusAcrossFrames in @yoziyo/dialog is deprecated. It will be removed in the next minor release.`
+					`The unstable_lockFocusAcrossFrames in @reach-ui-fork/dialog is deprecated. It will be removed in the next minor release.`
 				);
 			}
 		}, [lockFocusAcrossFramesIsDefined]);

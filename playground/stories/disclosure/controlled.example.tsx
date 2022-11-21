@@ -3,7 +3,7 @@ import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@yoziyo/disclosure";
+} from "@reach-ui-fork/disclosure";
 
 let name = "Controlled";
 

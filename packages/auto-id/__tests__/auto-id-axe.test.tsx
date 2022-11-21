@@ -3,11 +3,11 @@
 
 import * as React from "react";
 import { axe } from "vitest-axe";
-import { render, cleanup } from "@yoziyo-internal/test/utils";
+import { render, cleanup } from "@reach-ui-fork-internal/test/utils";
 import { vi, it, expect, describe, afterEach } from "vitest";
 
 const { useId } = await vi.importActual<typeof import("../src/auto-id")>(
-	"@yoziyo/auto-id"
+	"@reach-ui-fork/auto-id"
 );
 
 afterEach(cleanup);

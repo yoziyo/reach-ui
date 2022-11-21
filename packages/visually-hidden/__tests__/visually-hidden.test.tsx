@@ -2,9 +2,9 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
 import { describe, it, expect, afterEach } from "vitest";
-import { render, cleanup } from "@yoziyo-internal/test/utils";
+import { render, cleanup } from "@reach-ui-fork-internal/test/utils";
 
 afterEach(cleanup);
 

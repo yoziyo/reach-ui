@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useId } from "@yoziyo/auto-id";
+import { useId } from "@reach-ui-fork/auto-id";
 import cx from "clsx";
 
 const TableContext = React.createContext({});

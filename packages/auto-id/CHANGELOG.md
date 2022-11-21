@@ -1,4 +1,4 @@
-# `@yoziyo/auto-id`
+# `@reach-ui-fork/auto-id`
 
 ## 0.18.0
 
@@ -17,4 +17,4 @@
 
 - Fix buggy fallback implementation for React 18 ([`f50908c6`](https://github.com/reach/reach-ui/commit/f50908c6203b44032b601307cb5e7b9aece8f4c6))
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`

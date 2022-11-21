@@ -1,6 +1,6 @@
-# @yoziyo/alert-dialog
+# @reach-ui-fork/alert-dialog
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/alert-dialog.svg)](https://npm.im/@yoziyo/alert-dialog) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/alert-dialog.svg)](https://npm.im/@reach-ui-fork/alert-dialog) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/alert-dialog) | [Source](https://github.com/reach/reach-ui/tree/main/packages/alert-dialog) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#alertdialog)
 
@@ -12,7 +12,7 @@ When a Dialog opens, the _least destructive_ action should be focused so that if
 
 Every dialog must render an `AlertDialogLabel` so the screen reader knows what to say about the dialog. If an `AlertDialogDescription` is also rendered, the screen reader will also announce that. If you render more than these two elements and some buttons, the screen reader might not announce it so it's important to keep the content inside of `AlertDialogLabel` and `AlertDialogDescription`.
 
-This is built on top of [@yoziyo/dialog](https://reach.tech/dialog), so `AlertDialog` spreads its props and renders a `Dialog`, same for `AlertDialogOverlay` to `DialogOverlay`, and `AlertDialogContent` to `DialogContent`.
+This is built on top of [@reach-ui-fork/dialog](https://reach.tech/dialog), so `AlertDialog` spreads its props and renders a `Dialog`, same for `AlertDialogOverlay` to `DialogOverlay`, and `AlertDialogContent` to `DialogContent`.
 
 ```jsx
 function Example(props) {

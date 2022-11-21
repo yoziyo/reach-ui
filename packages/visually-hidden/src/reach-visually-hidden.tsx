@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/visually-hidden!
+ * Welcome to @reach-ui-fork/visually-hidden!
  *
  * Provides text for screen readers that is visually hidden.
  * It is the logical opposite of the `aria-hidden` attribute.
@@ -11,7 +11,7 @@
  */
 
 import * as React from "react";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 
 /**
  * VisuallyHidden

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Rect } from "@yoziyo/rect";
+import { Rect } from "@reach-ui-fork/rect";
 
 let name = "Basic";
 

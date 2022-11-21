@@ -1,4 +1,4 @@
-# `@yoziyo/checkbox`
+# `@reach-ui-fork/checkbox`
 
 ## 0.18.0
 
@@ -20,7 +20,7 @@
 
 - `useMixedCheckbox` mistakenly derived its `checked` value incorrectly. In practice this was unlikely to cause an issue, but it now derives the guaranteed value from the active component state.
 - Updated dependencies:
-  - `@yoziyo/auto-id@0.18.0`
-  - `@yoziyo/machine@0.18.0`
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/auto-id@0.18.0`
+  - `@reach-ui-fork/machine@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

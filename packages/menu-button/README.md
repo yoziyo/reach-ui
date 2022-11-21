@@ -1,6 +1,6 @@
-# @yoziyo/menu-button
+# @reach-ui-fork/menu-button
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/menu-button.svg)](https://npm.im/@yoziyo/menu-button) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/menu-button.svg)](https://npm.im/@reach-ui-fork/menu-button) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/menu-button) | [Source](https://github.com/reach/reach-ui/tree/main/packages/menu-button) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton)
 
@@ -13,8 +13,8 @@ import {
 	MenuButton,
 	MenuItem,
 	MenuLink,
-} from "@yoziyo/menu-button";
-import "@yoziyo/menu-button/styles.css";
+} from "@reach-ui-fork/menu-button";
+import "@reach-ui-fork/menu-button/styles.css";
 
 function Example() {
 	return (

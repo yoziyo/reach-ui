@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useWindowSize } from "@yoziyo/window-size";
+import { useWindowSize } from "@reach-ui-fork/window-size";
 
 let name = "Basic (useWindowSize)";
 

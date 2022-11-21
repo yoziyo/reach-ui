@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/checkbox!
+ * Welcome to @reach-ui-fork/checkbox!
  *
  * Accessible components to build custom, tri-state checkboxes in React.
  *

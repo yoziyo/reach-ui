@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import * as React from "react";
-import { useTooltip, TooltipPopup } from "@yoziyo/tooltip";
+import { useTooltip, TooltipPopup } from "@reach-ui-fork/tooltip";
 import { useTransition, animated } from "@react-spring/web";
-import "@yoziyo/tooltip/styles.css";
+import "@reach-ui-fork/tooltip/styles.css";
 
 let name = "Animated";
 

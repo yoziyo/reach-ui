@@ -6,8 +6,8 @@ import {
 	MenuButton,
 	MenuItem,
 	useMenuButtonContext,
-} from "@yoziyo/menu-button";
-import "@yoziyo/menu-button/styles.css";
+} from "@reach-ui-fork/menu-button";
+import "@reach-ui-fork/menu-button/styles.css";
 
 let name = "With useMenuButtonContext";
 

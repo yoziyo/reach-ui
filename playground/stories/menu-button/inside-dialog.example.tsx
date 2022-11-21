@@ -1,9 +1,9 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { DialogOverlay, DialogContent } from "@yoziyo/dialog";
-import { Menu, MenuList, MenuButton, MenuItem } from "@yoziyo/menu-button";
-import "@yoziyo/dialog/styles.css";
-import "@yoziyo/menu-button/styles.css";
+import { DialogOverlay, DialogContent } from "@reach-ui-fork/dialog";
+import { Menu, MenuList, MenuButton, MenuItem } from "@reach-ui-fork/menu-button";
+import "@reach-ui-fork/dialog/styles.css";
+import "@reach-ui-fork/menu-button/styles.css";
 
 let name = "Inside Dialog (TS)";
 
@@ -22,7 +22,7 @@ function Example() {
 					}}
 				>
 					<Menu
-						// Because of how the focus lock works with @yoziyo/dialog, portaled
+						// Because of how the focus lock works with @reach-ui-fork/dialog, portaled
 						// nodes, such as the element rendered by the menu button popover,
 						// cannot receive focus without the focus lock immediately stealing
 						// it back and closing the menu. To use the menu inside a dialog,

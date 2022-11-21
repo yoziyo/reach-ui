@@ -23,7 +23,7 @@
  * If you don't need an indeterminate state, you should probably just use a
  * native HTML input for your checkboxes. But of course, sometimes designers
  * have some other ideas that call for a custom solution. In that case, the
- * @yoziyo/checkbox/custom package provides a customizable wrapper element that
+ * @reach-ui-fork/checkbox/custom package provides a customizable wrapper element that
  * can be styled to fit your needs.
  *
  * @see Docs     https://reach.tech/checkbox#mixedcheckbox
@@ -36,10 +36,10 @@ import {
 	composeEventHandlers,
 	useIsomorphicLayoutEffect,
 	useComposedRefs,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
-import { assign, useCreateMachine, useMachine } from "@yoziyo/machine";
-import type { MachineEventWithRefs, StateMachine } from "@yoziyo/machine";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
+import { assign, useCreateMachine, useMachine } from "@reach-ui-fork/machine";
+import type { MachineEventWithRefs, StateMachine } from "@reach-ui-fork/machine";
 
 // Used for development only, not recommended for production code!
 const DEBUG = false;

@@ -1,4 +1,4 @@
-# `@yoziyo/window-size`
+# `@reach-ui-fork/window-size`
 
 ## 0.18.0
 
@@ -18,4 +18,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`

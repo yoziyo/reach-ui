@@ -1,4 +1,4 @@
-# `@yoziyo/utils`
+# `@reach-ui-fork/utils`
 
 ## 0.18.0
 
@@ -7,7 +7,7 @@
 - All default exports have been removed. Replace all default imports with the appropriate documented named export.
 - The output directory structure has changed slightly. Module files are now named `reach-<pkg>.mjs` instead of `reach-<pkg>.esm.js`.
 - Removed the `useCheckStyles` export
-- All `Polymorphic` types that were previously exported from `@yoziyo/utils` have been moved to a separate package `@yoziyo/polymorphic`. As `@yoziyo/utils` is an internal package, this [breaking] change should not affect you [if you listened to us and did not use the package directly].
+- All `Polymorphic` types that were previously exported from `@reach-ui-fork/utils` have been moved to a separate package `@reach-ui-fork/polymorphic`. As `@reach-ui-fork/utils` is an internal package, this [breaking] change should not affect you [if you listened to us and did not use the package directly].
 
 ### Minor Changes
 

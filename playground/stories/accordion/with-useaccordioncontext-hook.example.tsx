@@ -6,10 +6,10 @@ import {
 	AccordionPanel,
 	useAccordionContext,
 	useAccordionItemContext,
-} from "@yoziyo/accordion";
-import type { AccordionButtonProps } from "@yoziyo/accordion";
+} from "@reach-ui-fork/accordion";
+import type { AccordionButtonProps } from "@reach-ui-fork/accordion";
 import { action } from "@storybook/addon-actions";
-import "@yoziyo/accordion/styles.css";
+import "@reach-ui-fork/accordion/styles.css";
 
 let name = "With context hooks";
 

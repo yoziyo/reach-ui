@@ -3,9 +3,9 @@
 
 import * as React from "react";
 import { vi, describe, it, expect, afterEach } from "vitest";
-import { render, cleanup } from "@yoziyo-internal/test/utils";
+import { render, cleanup } from "@reach-ui-fork-internal/test/utils";
 import { axe } from "vitest-axe";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
 
 afterEach(cleanup);
 

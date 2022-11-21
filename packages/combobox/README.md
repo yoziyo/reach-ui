@@ -1,6 +1,6 @@
-# @yoziyo/combobox
+# @reach-ui-fork/combobox
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/combobox.svg)](https://npm.im/@yoziyo/combobox) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/combobox.svg)](https://npm.im/@reach-ui-fork/combobox) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 [Docs](https://reach.tech/combobox) | [Source](https://github.com/reach/reach-ui/tree/main/packages/combobox) | [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices-1.2/#combobox)
 
@@ -16,8 +16,8 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxOptionText,
-} from "@yoziyo/combobox";
-import "@yoziyo/combobox/styles.css";
+} from "@reach-ui-fork/combobox";
+import "@reach-ui-fork/combobox/styles.css";
 
 function Example() {
 	return (

@@ -1,13 +1,13 @@
 /**
- * Welcome to @yoziyo/popover!
+ * Welcome to @reach-ui-fork/popover!
  */
 
 import * as React from "react";
-import { Portal } from "@yoziyo/portal";
-import type { PRect } from "@yoziyo/rect";
-import { useRect } from "@yoziyo/rect";
-import { getOwnerDocument, useComposedRefs } from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+import { Portal } from "@reach-ui-fork/portal";
+import type { PRect } from "@reach-ui-fork/rect";
+import { useRect } from "@reach-ui-fork/rect";
+import { getOwnerDocument, useComposedRefs } from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 import { tabbable } from "tabbable";
 
 // TODO: tabbable types incorrectly exclude `document` as a param. Open a PR to

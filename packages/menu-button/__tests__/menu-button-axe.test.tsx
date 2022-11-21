@@ -7,7 +7,7 @@ import {
 	render,
 	screen,
 	simulateMouseClick,
-} from "@yoziyo-internal/test/utils";
+} from "@reach-ui-fork-internal/test/utils";
 import { axe } from "vitest-axe";
 import {
 	Menu,
@@ -15,7 +15,7 @@ import {
 	MenuButton,
 	MenuItem,
 	MenuLink,
-} from "@yoziyo/menu-button";
+} from "@reach-ui-fork/menu-button";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

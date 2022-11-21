@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { ComboboxInputProps } from "@yoziyo/combobox";
+import type { ComboboxInputProps } from "@reach-ui-fork/combobox";
 import {
 	Combobox,
 	ComboboxInput,
@@ -7,8 +7,8 @@ import {
 	ComboboxOption,
 	ComboboxPopover,
 	useComboboxContext,
-} from "@yoziyo/combobox";
-import "@yoziyo/combobox/styles.css";
+} from "@reach-ui-fork/combobox";
+import "@reach-ui-fork/combobox/styles.css";
 
 let name = "With useComboboxContext (TS)";
 

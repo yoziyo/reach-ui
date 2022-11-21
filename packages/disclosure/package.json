@@ -1,43 +1,35 @@
 {
-	"name": "@yoziyo/disclosure",
-	"version": "0.18.1",
-	"description": "Accessible React disclosure component",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yoziyo/reach-ui",
-		"directory": "packages/disclosure"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@yoziyo/auto-id": "workspace:*",
-		"@yoziyo/polymorphic": "workspace:*",
-		"@yoziyo/utils": "workspace:*"
-	},
-	"devDependencies": {
-		"@yoziyo-internal/dev": "workspace:*",
-		"@yoziyo-internal/test": "workspace:*",
-		"@yoziyo-internal/tsconfig": "workspace:*",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
-	},
-	"main": "./src/reach-disclosure.tsx",
-	"types": "./src/reach-disclosure.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-ui-fork/disclosure",
+  "version": "0.18.1",
+  "description": "Accessible React disclosure component",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoziyo/reach-ui",
+    "directory": "packages/disclosure"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": {
+    "@reach-ui-fork/auto-id": "workspace:*",
+    "@reach-ui-fork/polymorphic": "workspace:*",
+    "@reach-ui-fork/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@reach-ui-fork-internal/dev": "workspace:*",
+    "@reach-ui-fork-internal/test": "workspace:*",
+    "@reach-ui-fork-internal/tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-disclosure.cjs.js",
+  "types": "./dist/reach-disclosure.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-disclosure.mjs"
 }

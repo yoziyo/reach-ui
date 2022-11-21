@@ -1,14 +1,14 @@
 import * as React from "react";
-import { useTooltip, TooltipPopup } from "@yoziyo/tooltip";
-import type { Position } from "@yoziyo/tooltip";
+import { useTooltip, TooltipPopup } from "@reach-ui-fork/tooltip";
+import type { Position } from "@reach-ui-fork/tooltip";
 import {
 	SliderInput,
 	SliderHandle,
 	SliderTrack,
 	SliderRange,
-} from "@yoziyo/slider";
-import "@yoziyo/tooltip/styles.css";
-import "@yoziyo/slider/styles.css";
+} from "@reach-ui-fork/slider";
+import "@reach-ui-fork/tooltip/styles.css";
+import "@reach-ui-fork/slider/styles.css";
 import "./examples.css";
 
 let name = "With Tooltip";

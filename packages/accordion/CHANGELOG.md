@@ -1,4 +1,4 @@
-# `@yoziyo/accordion`
+# `@reach-ui-fork/accordion`
 
 ## 0.18.0
 
@@ -18,7 +18,7 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/auto-id@0.18.0`
-  - `@yoziyo/descendants@0.18.0`
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/auto-id@0.18.0`
+  - `@reach-ui-fork/descendants@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

@@ -1,4 +1,4 @@
-# `@yoziyo/rect`
+# `@reach-ui-fork/rect`
 
 ## 0.18.0
 
@@ -16,4 +16,4 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`

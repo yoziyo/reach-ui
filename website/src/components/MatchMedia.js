@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useIsomorphicLayoutEffect as useLayoutEffect } from "@yoziyo/utils/use-isomorphic-layout-effect";
+import { useIsomorphicLayoutEffect as useLayoutEffect } from "@reach-ui-fork/utils/use-isomorphic-layout-effect";
 import createMediaListener from "./createMediaListener";
 
 let canUseDOM = typeof window !== "undefined";

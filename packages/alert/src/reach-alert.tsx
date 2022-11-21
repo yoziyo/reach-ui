@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/alert!
+ * Welcome to @reach-ui-fork/alert!
  *
  * An alert is an element that displays a brief, important message in a way that
  * attracts the user's attention without interrupting the user's task.
@@ -24,9 +24,9 @@
  */
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { VisuallyHidden } from "@yoziyo/visually-hidden";
-import { getOwnerDocument, useComposedRefs } from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+import { VisuallyHidden } from "@reach-ui-fork/visually-hidden";
+import { getOwnerDocument, useComposedRefs } from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 
 /*
  * Singleton state is fine because you don't server render

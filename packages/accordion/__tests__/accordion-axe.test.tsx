@@ -2,14 +2,14 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { render, fireEvent, cleanup } from "@yoziyo-internal/test/utils";
+import { render, fireEvent, cleanup } from "@reach-ui-fork-internal/test/utils";
 import { axe } from "vitest-axe";
 import {
 	Accordion,
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@yoziyo/accordion";
+} from "@reach-ui-fork/accordion";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

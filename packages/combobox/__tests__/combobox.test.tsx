@@ -7,8 +7,8 @@ import {
 	render,
 	withMarkup,
 	userEvent,
-} from "@yoziyo-internal/test/utils";
-import type { ComboboxInputProps } from "@yoziyo/combobox";
+} from "@reach-ui-fork-internal/test/utils";
+import type { ComboboxInputProps } from "@reach-ui-fork/combobox";
 import {
 	Combobox,
 	ComboboxInput,
@@ -16,7 +16,7 @@ import {
 	ComboboxOption,
 	ComboboxPopover,
 	useComboboxContext,
-} from "@yoziyo/combobox";
+} from "@reach-ui-fork/combobox";
 import { matchSorter } from "match-sorter";
 import cities from "./cities";
 import { afterEach, describe, expect, it } from "vitest";

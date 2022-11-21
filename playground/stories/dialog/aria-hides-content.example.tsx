@@ -1,7 +1,7 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Dialog } from "@yoziyo/dialog";
-import "@yoziyo/dialog/styles.css";
+import { Dialog } from "@reach-ui-fork/dialog";
+import "@reach-ui-fork/dialog/styles.css";
 
 let name = "Aria Hides Content";
 

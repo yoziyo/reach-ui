@@ -3,7 +3,7 @@ import {
 	useForceUpdate,
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	noop,
-} from "@yoziyo/utils";
+} from "@reach-ui-fork/utils";
 
 declare const __DEV__: boolean;
 
@@ -125,7 +125,7 @@ function DescendantProvider<DescendantType extends Descendant>({
 						console.warn(
 							"[reach-ui]: `useDescendant` was called with an element that was " +
 								"already registered.\n\n" +
-								"If you are using the `@yoziyo/descendants` package directly, " +
+								"If you are using the `@reach-ui-fork/descendants` package directly, " +
 								"make sure to only register descendants once. Registering a descendant " +
 								"more than once will lead to bugs in your app.\n\n" +
 								"If you are using another `reach-ui` package, this is probably our bug!\n\n" +

@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/slider!
+ * Welcome to @reach-ui-fork/slider!
  *
  * A UI input component where the user selects a value from within a given
  * range. A Slider has a handle that can be moved along a track to change its
@@ -23,7 +23,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 
 import * as React from "react";
-import { useId } from "@yoziyo/auto-id";
+import { useId } from "@reach-ui-fork/auto-id";
 import {
 	composeEventHandlers,
 	createContext,
@@ -36,8 +36,8 @@ import {
 	useControlledState,
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	useStableLayoutCallback,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 
 declare const __DEV__: boolean;
 
@@ -269,7 +269,7 @@ const SliderInput = React.forwardRef(function SliderInput(
 		React.useEffect(() => {
 			if (depecratedPropIsSet) {
 				console.warn(
-					"The `getValueText` prop in @yoziyo/slider is deprecated. Please use `getAriaValueText` instead."
+					"The `getValueText` prop in @reach-ui-fork/slider is deprecated. Please use `getAriaValueText` instead."
 				);
 			}
 		}, [depecratedPropIsSet]);

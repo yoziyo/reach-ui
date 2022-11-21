@@ -1,10 +1,10 @@
-# @yoziyo/popover
+# @reach-ui-fork/popover
 
-[![Stable release](https://img.shields.io/npm/v/@yoziyo/popover.svg)](https://npm.im/@yoziyo/popover) ![MIT license](https://badgen.now.sh/badge/license/MIT)
+[![Stable release](https://img.shields.io/npm/v/@reach-ui-fork/popover.svg)](https://npm.im/@reach-ui-fork/popover) ![MIT license](https://badgen.now.sh/badge/license/MIT)
 
 ```jsx
 import * as React from "react";
-import { Popover, positionDefault } from "@yoziyo/popover";
+import { Popover, positionDefault } from "@reach-ui-fork/popover";
 
 function Example() {
 	const ref = React.useRef(null);

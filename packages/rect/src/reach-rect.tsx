@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/rect!
+ * Welcome to @reach-ui-fork/rect!
  *
  * Measures DOM elements (aka. bounding client rect).
  *
@@ -9,12 +9,12 @@
  */
 
 import * as React from "react";
-import observeRect from "@yoziyo/observe-rect";
+import observeRect from "@reach/observe-rect";
 import {
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	isBoolean,
 	isFunction,
-} from "@yoziyo/utils";
+} from "@reach-ui-fork/utils";
 
 declare const __DEV__: boolean;
 

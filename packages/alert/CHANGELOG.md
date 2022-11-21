@@ -1,4 +1,4 @@
-# `@yoziyo/alert`
+# `@reach-ui-fork/alert`
 
 ## 0.18.0
 
@@ -17,6 +17,6 @@
 
 - Hide visual messages from screen reader to prevent double read
 - Updated dependencies:
-  - `@yoziyo/utils@0.18.0`
-  - `@yoziyo/visually-hidden@0.18.0`
-  - `@yoziyo/polymorphic@0.18.0`
+  - `@reach-ui-fork/utils@0.18.0`
+  - `@reach-ui-fork/visually-hidden@0.18.0`
+  - `@reach-ui-fork/polymorphic@0.18.0`

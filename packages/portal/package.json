@@ -1,45 +1,32 @@
 {
-	"name": "@yoziyo/portal",
-	"version": "0.18.1",
-	"description": "Declarative portals for React",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"sideEffects": [
-		"*.css"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/yoziyo/reach-ui",
-		"directory": "packages/portal"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@yoziyo/utils": "workspace:*"
-	},
-	"devDependencies": {
-		"@yoziyo-internal/dev": "workspace:*",
-		"@yoziyo-internal/test": "workspace:*",
-		"@yoziyo-internal/tsconfig": "workspace:*",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x || 18.x",
-		"react-dom": "^16.8.0 || 17.x || 18.x"
-	},
-	"main": "./src/reach-portal.tsx",
-	"types": "./src/reach-portal.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist",
-		"styles.css"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-ui-fork/portal",
+  "version": "0.18.1",
+  "description": "Declarative portals for React",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "sideEffects": ["*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoziyo/reach-ui",
+    "directory": "packages/portal"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": { "@reach-ui-fork/utils": "workspace:*" },
+  "devDependencies": {
+    "@reach-ui-fork-internal/dev": "workspace:*",
+    "@reach-ui-fork-internal/test": "workspace:*",
+    "@reach-ui-fork-internal/tsconfig": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-portal.cjs.js",
+  "types": "./dist/reach-portal.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-portal.mjs"
 }

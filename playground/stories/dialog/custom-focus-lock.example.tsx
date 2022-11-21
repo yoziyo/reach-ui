@@ -1,8 +1,8 @@
 import * as React from "react";
-import { DialogOverlay, DialogContent } from "@yoziyo/dialog";
-import "@yoziyo/dialog/styles.css";
+import { DialogOverlay, DialogContent } from "@reach-ui-fork/dialog";
+import "@reach-ui-fork/dialog/styles.css";
 import FocusLock from "react-focus-lock";
-import { Portal } from "@yoziyo/portal";
+import { Portal } from "@reach-ui-fork/portal";
 
 let name = "With customized focus lock";
 

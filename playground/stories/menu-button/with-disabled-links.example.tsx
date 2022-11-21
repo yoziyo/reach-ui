@@ -6,9 +6,9 @@ import {
 	MenuButton,
 	MenuLink,
 	MenuItem,
-} from "@yoziyo/menu-button";
+} from "@reach-ui-fork/menu-button";
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
-import "@yoziyo/menu-button/styles.css";
+import "@reach-ui-fork/menu-button/styles.css";
 
 let name = "With Disabled Links";
 

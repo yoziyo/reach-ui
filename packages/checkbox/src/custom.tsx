@@ -1,5 +1,5 @@
 /**
- * Welcome to @yoziyo/checkbox!
+ * Welcome to @reach-ui-fork/checkbox!
  *
  * A CustomCheckbox is useful because full control of a native HTML input's
  * design is not always possible. You may want to provide custom check graphics
@@ -37,8 +37,8 @@ import {
 	isFunction,
 	useComposedRefs,
 	composeEventHandlers,
-} from "@yoziyo/utils";
-import type * as Polymorphic from "@yoziyo/polymorphic";
+} from "@reach-ui-fork/utils";
+import type * as Polymorphic from "@reach-ui-fork/polymorphic";
 import {
 	internal_checkedPropToStateValue as checkedPropToStateValue,
 	useMixedCheckbox,
